@@ -18,4 +18,4 @@ use App\Http\Controllers\ServiceController;
 // Route::get('cars/{id}', 'ServiceController@car')->name('car');
 
 Route::get('/', [ServiceController::class, 'avtokredit_index'])->name('avtokredit.index');
-Route::get('cars/{id}', [ServiceController::class, 'car'])->name('car');
+Route::get('/cars/{id}', [ServiceController::class, 'car'])->name('car');

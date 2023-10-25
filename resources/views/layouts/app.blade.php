@@ -27,7 +27,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     @php
-                        dump($cardetails);
+                        dump(session()->get('car_id'));
                     @endphp
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
